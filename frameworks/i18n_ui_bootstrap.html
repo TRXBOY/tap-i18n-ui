@@ -17,7 +17,7 @@
   <span class="tap-i18n-buttons">
     {{#if i18n_enabled}}
       {{#each i18n_sortedLanguages}}
-        <button type="button" class="btn {{#if i18n_isCurrentLanguage tag}}btn-primary{{else}}btn-default{{/if}}">{{name}}</button>
+        <button type="button" class="btn {{#if i18n_isCurrentLanguage tag}}btn-trslate{{else}}btn-deftrslate{{/if}}">{{name}}</button>
       {{/each}}
     {{else}}
       <span class="i18n-not-found">No i18n files found</span>
